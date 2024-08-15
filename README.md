@@ -26,7 +26,7 @@ This project involves running seismic travel time inversion using quantum anneal
 
 ## Plots
 
-- `plots` directory and `plot.ipynb`: Contains output related to the inversion process.
+- `plots` directory and `4-plots.ipynb`: Contains output related to the inversion process.
 
 ## License
 
