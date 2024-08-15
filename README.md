@@ -13,8 +13,7 @@ This project involves running seismic travel time inversion using quantum anneal
 ## Data and Results
 
 - **Input Data**:
-  - Stored in `velocity_model.npy`.
-  - `D.npy` and `T.npy` represent the distance increment and travel time for testing, respectively.
+  - `D.npy` and `T.npy` represent the distance increment and travel, respectively.
 
 - **Results**:
   - Output data is stored in the following directories:
