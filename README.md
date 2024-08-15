@@ -4,10 +4,10 @@ This project involves running seismic travel time inversion using quantum anneal
 
 ## Project Structure
 
-- **modules.py**: Contains core code for QUBO (Quadratic Unconstrained Binary Optimization) optimization.
-- **.ipynb files**: Jupyter notebooks for running the inversion process with quantum annealing.
-  - **1-borehole30x10.ipynb**: Inversion without noise.
-  - **2-borehole30x10-noise.ipynb**: Inversion with added noise levels.
+- `modules.py`: Contains core code for QUBO (Quadratic Unconstrained Binary Optimization) optimization.
+- `.ipynb` files: Jupyter notebooks for running the inversion process with quantum annealing.
+  - `1-borehole30x10.ipynb`: Inversion without noise.
+  - `2-borehole30x10-noise.ipynb`: Inversion with added noise levels.
   - Other notebooks follow similar processes with varying noise levels and configurations.
 
 ## Data and Results
@@ -26,7 +26,7 @@ This project involves running seismic travel time inversion using quantum anneal
 
 ## Plots
 
-- **plots/**: Contains visualization scripts and output related to the inversion process.
+- `plots` directory and `plot.ipynb`: Contains output related to the inversion process.
 
 ## License
 
