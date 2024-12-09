@@ -4,29 +4,26 @@ This project involves running seismic travel time inversion using quantum anneal
 
 ## Project Structure
 
-- `modules.py`: Contains core code for QUBO (Quadratic Unconstrained Binary Optimization) optimization.
+- `modules`: Contains core code for QUBO (Quadratic Unconstrained Binary Optimization) optimization, intial calculation and plotting
 - `.ipynb` files: Jupyter notebooks for running the inversion process with quantum annealing.
-  - `1-borehole30x10.ipynb`: Inversion without noise.
-  - `2-borehole30x10-noise.ipynb`: Inversion with added noise levels.
-  - Other notebooks follow similar processes with varying noise levels and configurations.
+  - `1-gendata-class-inv.ipynb`: Generate data for the classical inverison
+  - `2-2-tikh-reg-inv.ipynb`: Inversion with added noise levels using Tikhonov scheme.
+  - `3-borehole30x10.ipynb`: Inversion with quantum annealing, using small boundary L
+  - `4-main-development.ipynb`: Major development for the inversion with quantum annealing, using small boundary L
+  - `5-main-noise-constant-L.ipynb`: Main code the inversion with quantum annealing, using large and constant boundary L
 
 ## Data and Results
 
 - **Input Data**:
-  - `D.npy` and `T.npy` represent the distance increment and travel, respectively.
+  - In the `input` folder: `D.npy` and `T.npy` represent the distance increment and travel, respectively.
 
 - **Results**:
-  - Output data is stored in the following directories:
-    - `results30x10`
-    - `results30x10-noise-1`
-    - `results30x10-noise-01`
-    - `results30x10-noise-001`
-    - `results30x10-noise-2`
+  - Output data is stored in the `results` folders
   - The noise levels in travel time for these results are 1%, 2%, and 5%.
 
 ## Plots
 
-- `plots` directory and `4-plots.ipynb`: Contains output related to the inversion process.
+- `plots` directory and `6-plots.ipynb`: Contains output related to the inversion process.
 
 ## License
 
