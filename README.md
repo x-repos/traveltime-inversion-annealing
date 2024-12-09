@@ -22,7 +22,7 @@ This project involves running seismic travel time inversion using quantum anneal
     - `results30x10-noise-01`
     - `results30x10-noise-001`
     - `results30x10-noise-2`
-  - The noise levels in travel time for these results are 0%, 0.01%, and 2%.
+  - The noise levels in travel time for these results are 1%, 2%, and 5%.
 
 ## Plots
 
