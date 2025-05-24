@@ -2,6 +2,10 @@
 
 This project involves running seismic travel time inversion using quantum annealing techniques.
 
+If you find this work useful, please cite it as:
+
+Nguyen, H. A., & Tura, A. *Seismic Traveltime Inversion with Quantum Annealing*. *Sci. Rep.* **15**, 17984 (2025). [https://doi.org/10.1038/s41598-025-01188-8](https://doi.org/10.1038/s41598-025-01188-8)
+
 ## Project Structure
 
 - `modules`: Contains core code for QUBO (Quadratic Unconstrained Binary Optimization) optimization, intial calculation and plotting
